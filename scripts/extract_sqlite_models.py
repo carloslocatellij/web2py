@@ -121,7 +121,7 @@ def sqlite(database_name):
     return legacy_db_web2py_code
 
 if len(sys.argv) < 2:
-    print 'USAGE:\n\n    extract_mysql_models.py data_basename\n\n'
+    print('USAGE:\n\n    extract_mysql_models.py data_basename\n\n')
 else:
-    print "# -*- coding: utf-8 -*-"
-    print sqlite(sys.argv[1])
+    print("# -*- coding: utf-8 -*-")
+    print(sqlite(sys.argv[1]))
